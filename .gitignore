@@ -1,0 +1,20 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Ignore build outputs
+dist/
+build/
+*.o
+*.class
+
+# Ignore logs and environment files
+logs/
+*.log
+.env
+
